@@ -1,0 +1,18 @@
+{% extends 'main/main.html' %}
+
+{% block title_head %} SECOND_PAGE {% endblock %}
+{% block title %} <h1>SECOND PAGE</h1> {% endblock %}
+{% block container %} ВТОРАЯ СТРАНИЦА {% endblock %}
+
+{% block body1 %}
+
+{{ flatpage.title }}
+
+<hr>
+<hr>
+<hr>
+{{ flatpage.title }}
+
+
+{% include 'main/example.html' %}
+{% endblock %}
